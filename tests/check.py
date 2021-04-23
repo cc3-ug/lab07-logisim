@@ -4,7 +4,7 @@ from tabulate import tabulate
 
 
 # executes a shell command
-def execute(cmd=[], shell=False, timeout=5):
+def execute(cmd=[], shell=False, timeout=15):
     return run(cmd, shell=shell, stdout=PIPE, stderr=PIPE, timeout=timeout)
 
 

@@ -13,5 +13,5 @@
   }
 
   title
-  python tests/check.py
+  python3 tests/check.py
 }
